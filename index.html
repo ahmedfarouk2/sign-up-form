@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
     <title>Sign Up Form</title>
 </head>
 <body>
@@ -20,19 +21,19 @@
             <div class="form">
                 <div class="first-row">
                     <label for="firstname">First Name</label>
-                    <input type="text" id="firstname" name="firstname">
+                    <input type="text" id="firstname" name="firstname" maxlength="30" required>
                     <label for="lastname">Last Name</label>
-                    <input type="text" id="lastname" name="lastname">
+                    <input type="text" id="lastname" name="lastname" maxlength="30" required>
                     <label for="password">Password</label>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password" name="password" maxlength="30" required>
                 </div>
                 <div class="second-row">
                     <label for="email">E-MAIL ADDRESS</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" maxlength="30" required>
                     <label for="phonenumber">Phone Number</label>
-                    <input type="tel" id="number" name="number">
+                    <input type="tel" id="number" name="number" maxlength="30" required>
                     <label for="confirm-pass">Confirm Password</label>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="confirm-password" name="confirm-password" maxlength="30" required>
                 </div>
             </div>    
             <div class="button">
