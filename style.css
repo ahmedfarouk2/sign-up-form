@@ -93,7 +93,7 @@ input:focus{
 
 button {
     position: absolute;
-    width: 12rem;
+    width: 13rem;
     height: 3rem;
     bottom: 13rem;
     left: 4rem;
@@ -103,6 +103,7 @@ button {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: rgba(192, 0, 0, 0.75);
+    cursor: pointer;
 }
 
 .already {
