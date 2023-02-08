@@ -10,3 +10,7 @@ submitButton.addEventListener('click', (e) => {
         confirmPasswordInput.setCustomValidity('');
     }
 })
+
+window.addEventListener('load', (e) => {
+    alert('Beautiful image taken by @lexilaginess on unsplash.com')
+})
