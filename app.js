@@ -4,7 +4,7 @@ const submitButton = document.querySelector('#sign-up');
 
 submitButton.addEventListener('click', (e) => {
     if (passwordInput.value !== confirmPasswordInput.value){
-        confirmPasswordInput.setCustomValidity(`Passwords don't match bro, Try matching them and you won't see this message!`)
+        confirmPasswordInput.setCustomValidity(`Passwords don't match bro/sis, Try matching them and you won't see this message!`)
     }
     else {
         confirmPasswordInput.setCustomValidity('');
@@ -13,4 +13,7 @@ submitButton.addEventListener('click', (e) => {
 
 window.addEventListener('load', (e) => {
     alert('Beautiful image taken by @lexilaginess on unsplash.com')
-})
+});
+
+
+
